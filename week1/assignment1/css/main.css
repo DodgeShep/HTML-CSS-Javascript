@@ -1,0 +1,152 @@
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --color-dark : #3A3042;
+    --color-light : #fae8eb;
+    --color-pink : #F6CACA;
+    --color-rose : #e4c2c6;
+    --color-lilac : #cd9fcc;
+
+--font-heading : 'Sofia' , cursive;
+--font-body : 'Ariel' , sans-serif;
+
+
+}
+
+body{
+    background-color: var(--color-dark);
+    font-family: var(--font-body); 
+    color: var(--color-light);
+    margin: 0px;
+    
+}
+h1{
+    font-family: var(--font-heading);
+    color: var(--color-light);
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+h2{
+    font-family: var(--font-heading);
+    color: var(--color-light);
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px;
+}
+/* About me info*/
+
+.AboutMe{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    background-color: var(--color-lilac);
+    border-radius: 25px;
+    color: var(--color-dark);
+    margin: 20px auto;
+    padding: 20px;
+    overflow: hidden;
+    column-gap: 20px;
+    max-width: 900px;
+
+
+}
+.AboutMe *{
+    margin-top: 0;
+}
+
+     .AboutMe img{
+        grid-column: 1;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid var(--color-lilac);
+        justify-self: center;
+    }
+    
+    
+    
+
+body p{
+    font-family: var(--font-body);
+    color: var(--color-light);
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 25px;
+    padding: 15px;
+   
+    } 
+
+    
+nav{
+    background-color: var(--color-rose);
+    color: var(--color-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0  auto; 
+    max-width: 900px;
+    border-radius: 25px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+/* pet pics section*/
+.pet-pics{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    
+}
+/*just the pictures*/
+.pet-pics img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-lilac);
+    gap: 2px;
+ 
+}
+.pet-pics p{
+    font-family: var(--font-body);
+    color: var(--color-light);
+    font-size: 1.2rem;
+    max-width: 150px;
+    line-height: 20px;
+    
+    }
+    .about-text p {
+
+    font-family: var(--font-body);
+    color: var(--color-dark);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0;
+    max-width: 600px;
+    padding: 5px;
+}
+    .about-text h2{
+    font-family: var(--font-heading);
+    color: var(--color-dark);
+    
+    }
+nav a{
+    
+    text-decoration: none;
+    color: var(--color-dark);
+    font-weight: bold;
+   margin-right: 20px;
+    margin-left: 20px 
+} 
